@@ -1,14 +1,14 @@
 import time 
-from colorama import Fore ,Back ,Style ,init #line:4
+from colorama import Fore ,Back ,Style ,init 
 init (autoreset =True )#line:5
 def startMessage ():#line:7
-    OO0O0OO0OOO0OO0O0 =input (Fore .YELLOW +"Enter Code To Unlock The Tool : ")#line:8
+    OO0O0OO0OOO0OO0O0 =input (Fore .YELLOW +"Enter Code To Unlock The Tool : ")
     OOOO0OO000OO0OOOO ="nolove"
     if OOOO0OO000OO0OOOO !=OO0O0OO0OOO0OO0O0 :
         print (Fore .RED +'[X] Wrong Code')
         print (Fore .BLUE +''' 
    1. Go to Insta and massage
-   2. Insta ID: cyberphantomsyndicate
+   2. Insta ID: shadow0null
    3. Send massage for code
    4.  Next time come with code and use this tool
    5.bye
@@ -903,4 +903,5 @@ if __name__ == "__main__":
             elif arg[1] in ("15"): temp_mail_gen()
         else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))
     else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))                   
+
 
