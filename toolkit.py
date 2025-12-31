@@ -112,7 +112,7 @@ logo = f"""{b}
                        .(#/#########//****** **.                            
                           .(########//*****,.*                              
                              ,.*(##(//* ./
-  {d}Simple Information Gathering Toolkit{w}    
+  {d}Information Gathering Toolkit{w}    
   {d}Authors: {w}{r}@Shadow0Null{d}
 """
 
@@ -903,5 +903,6 @@ if __name__ == "__main__":
             elif arg[1] in ("15"): temp_mail_gen()
         else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))
     else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))                   
+
 
 
