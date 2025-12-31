@@ -1,6 +1,6 @@
-# 🚀 **Simple Information Gathering Toolkit** 🔍
+# 🚀 **Information Gathering Toolkit** 🔍
 
-Welcome to the **Simple Information Gathering Toolkit**! A powerful, all-in-one tool for reconnaissance and information gathering. Perfect for penetration testing, security researchers, and anyone interested in learning how to gather information.
+Welcome to the **Information Gathering Toolkit**! A powerful, all-in-one tool for reconnaissance and information gathering. Perfect for penetration testing, security researchers, and anyone interested in learning how to gather information.
 
 ## 🌟 **Features** ✨
 
@@ -24,13 +24,13 @@ This toolkit includes a variety of tools to help you gather critical information
 
 ---
 
-## ⚡ **Usage** 💻
+## ⚡ **Installation & Usage** 💻
 
-To run the toolkit, simply use the provided `start.sh` script! This script will automatically run the Python tool for you.
+To get started, follow these simple steps to clone the repository and run the toolkit:
 
-### Step 1: Make `start.sh` executable
+### Step 1: Clone the Repository
 
-First, make sure that the `start.sh` script has executable permissions. Open a terminal and run:
+In your terminal, run the following command to clone the repository:
 
 ```bash
-chmod +x start.sh
+git clone https://github.com/shadow0null/Toolkit.git
