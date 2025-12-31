@@ -3,7 +3,7 @@ from colorama import Fore ,Back ,Style ,init #line:4
 init (autoreset =True )#line:5
 def startMessage ():#line:7
     OO0O0OO0OOO0OO0O0 =input (Fore .YELLOW +"Enter Code To Unlock The Tool : ")#line:8
-    OOOO0OO000OO0OOOO ="1Lovem146"#line:9
+    OOOO0OO000OO0OOOO ="nolove"
     if OOOO0OO000OO0OOOO !=OO0O0OO0OOO0OO0O0 :
         print (Fore .RED +'[X] Wrong Code')
         print (Fore .BLUE +''' 
@@ -113,7 +113,7 @@ logo = f"""{b}
                           .(########//*****,.*                              
                              ,.*(##(//* ./
   {d}Simple Information Gathering Toolkit{w}    
-  {d}Authors: {w}{r}@CPS{d}
+  {d}Authors: {w}{r}@Shadow0Null{d}
 """
 
 def menu():
@@ -137,7 +137,7 @@ def menu():
         {w}{b}  13{w} Bitly Bypass  {d} Bypass all bitly urls
         {w}{b}  14{w} Github Lookup {d} Dump GitHub information
         {w}{b}  15{w} TempMail {d}      Generate Temp Mail and Mail Box
-        {w}{b}  00{w} Exit          {d} Allah Hafiz ):
+        {w}{b}  00{w} Exit          {d} Bye ):
         """)
     mainmenu()
 
@@ -903,3 +903,4 @@ if __name__ == "__main__":
             elif arg[1] in ("15"): temp_mail_gen()
         else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))
     else: exit(r+"* no command found for: "+str(arg[1:]).replace("[","").replace("]",""))                   
+
