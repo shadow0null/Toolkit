@@ -1,37 +1,36 @@
-# Simple Information Gathering Toolkit
+# 🚀 **Simple Information Gathering Toolkit** 🔍
 
-The **Simple Information Gathering Toolkit** is a command-line tool that provides a set of utilities for gathering information about users, domains, emails, phone numbers, and more. This tool can be helpful for penetration testers, security enthusiasts, and anyone interested in information gathering and reconnaissance.
+Welcome to the **Simple Information Gathering Toolkit**! A powerful, all-in-one tool for reconnaissance and information gathering. Perfect for penetration testing, security researchers, and anyone interested in learning how to gather information.
 
-## Authors
+## 🌟 **Features** ✨
 
-- **@Shadow0Null**
+This toolkit includes a variety of tools to help you gather critical information:
 
-## Features
+1. **Userrecon** - Discover information about a username.
+2. **Facedumper** - Dump Facebook information (for research or security purposes).
+3. **Mailfinder** - Find emails from a name.
+4. **Godorker** - Use Google dorking techniques to discover hidden data.
+5. **Phoneinfo** - Gather details about a phone number.
+6. **DNSLookup** - Lookup DNS records for any domain.
+7. **Whoislookup** - Find domain owner information using WHOIS.
+8. **Sublookup** - Discover subdomains and subnetwork details.
+9. **Hostfinder** - Find host domains related to an IP.
+10. **DNSfinder** - Gather detailed DNS information for any host.
+11. **RIPlookup** - Perform a reverse IP lookup.
+12. **IPlocation** - Track the location of any IP address.
+13. **Bitly Bypass** - Bypass Bitly shortened URLs.
+14. **Github Lookup** - Extract data from GitHub profiles.
+15. **TempMail** - Generate temporary email addresses and mailboxes.
 
-This toolkit includes several modules for performing common information gathering tasks:
+---
 
-1. **Userrecon** - Username reconnaissance.
-2. **Facedumper** - Dump Facebook information.
-3. **Mailfinder** - Find email addresses based on names.
-4. **Godorker** - Perform Google dorking for gathering information.
-5. **Phoneinfo** - Gather information on phone numbers.
-6. **DNSLookup** - Perform a domain name system lookup.
-7. **Whoislookup** - Identify the owner of a domain using WHOIS.
-8. **Sublookup** - Perform subnetwork lookups.
-9. **Hostfinder** - Find host domains.
-10. **DNSfinder** - Find domain name system information.
-11. **RIPlookup** - Reverse IP lookup.
-12. **IPlocation** - Find the location of an IP address.
-13. **Bitly Bypass** - Bypass Bitly URLs.
-14. **Github Lookup** - Dump GitHub account information.
-15. **TempMail** - Generate temporary email and mailbox.
+## ⚡ **Usage** 💻
 
-## Installation
+To run the toolkit, simply use the provided `start.sh` script! This script will automatically run the Python tool for you.
 
-To use this toolkit, clone the repository to your local machine and install the required dependencies:
+### Step 1: Make `start.sh` executable
+
+First, make sure that the `start.sh` script has executable permissions. Open a terminal and run:
 
 ```bash
-git clone https://github.com/shadow0null/Toolkit.git
-cd Toolkit
-# Optional: Install dependencies
-pip install -r requirements.txt
+chmod +x start.sh
